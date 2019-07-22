@@ -19,7 +19,17 @@ public class CalendarDemo {
 		int totalCount = 0;
 		
 		// 2019년도까지 총 일수 구하기
-		totalCount = preYear * 365 +(preYear/4-preYear/100 + preYear/400); 
+		totalCount = preYear * 365 +(preYear/4-preYear/100 + preYear/400);
+		
+		int[] monthArray = {31,28,31,30,31,30,31,31,30,31,30,31};
+		if(year%4==0 && (year%100!=0) || (year%400==0)) {
+			monthArray[1] = 29;
+		}
+		
+		// 2019년도 11월까지 합 구하기
+		for(int i=0;i<preMonth;i++) {
+			totalCount+=monthArray[i];
+		}
 		totalCount+=31+29;
 		
 		totalCount += day;
