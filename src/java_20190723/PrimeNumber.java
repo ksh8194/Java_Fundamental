@@ -17,14 +17,12 @@ public class PrimeNumber {
 			}
 			if(isPrimeNumber) {
 				count++;
-				//System.out.print(i+"\t");
+				System.out.print(i+"\t");
 			}
 		}
-		//System.out.println();
-		//System.out.printf("소수의 갯수 : %s%n",count);
+		System.out.println();
+		System.out.printf("소수의 갯수 : %s%n",count);
 		}
-	
-	
 	
 	
 	public int[] getPrimeNumber(int temp) {
@@ -49,6 +47,14 @@ public class PrimeNumber {
 		return copyArray;
 				
 		
+	
 	}
+	
+	
+	
+	
+	
 }
+	
+
 
