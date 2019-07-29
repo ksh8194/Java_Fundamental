@@ -1,5 +1,17 @@
 package java_20190723;
+// one line comment
 
+/*
+ * multi line comment
+ 
+  */
+
+
+//java docs comment
+
+/**
+ Calendar 클래스는 년도별, 월별, 요일을 구할 수 있는 클래스 입니다.
+ */
 public class Calendar {
 
 	public static final int SUNDAY = 0;
@@ -12,7 +24,9 @@ public class Calendar {
 	
 	
 	
-	
+	/**
+	 매개변수에 년도를 호출하면 해당 년도의 월 별 달력을 출력하는 기능입니다.
+	 */
 	public void print(int year) {
 		for(int i = 1; i<=12 ; i++) {
 			if(i%2==1) {
@@ -35,6 +49,9 @@ public class Calendar {
 	
 	
 	
+	/**
+	 매개변수에 년,월,일로 호출하면 요일을 출력하는 기능입니다.
+	 */
 	
 	private int getCount(int year, int month, int day) {
 		int preYear = year - 1;
@@ -61,6 +78,9 @@ public class Calendar {
 		return totalCount;
 	}
 	
+	/**
+	매개변수에 연도와 월을 호출하면 해당 연도의 월 달력을 출력하는 기능입니다.
+	 */
 	public int getLastday(int year, int month) {
 		int[] monthArray = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 
