@@ -14,6 +14,7 @@ public class StringBufferDemo {
 		System.out.println(s3.contentEquals(s4));
 		
 		StringBuffer sql = new StringBuffer();
+		
 		sql.append("select name, age ");
 		sql.append("from member");
 		sql.append("where name = '성영한'");
