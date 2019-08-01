@@ -27,7 +27,7 @@ public class Calendar {
 	/**
 	 매개변수에 년도를 호출하면 해당 년도의 월 별 달력을 출력하는 기능입니다.
 	 */
-	public void print(int year) {
+	/*public void print(int year) {
 		for(int i = 1; i<=12 ; i++) {
 			if(i%2==1) {
 				System.out.println(i+"월");
@@ -35,16 +35,16 @@ public class Calendar {
 				System.out.println();
 			}
 		}
-	}
+	}*/
 	
-	/* public void print(int year) {
+	public void print(int year) {
 		for(int i=1;i<=12;i++) {
 			System.out.println(i+"월");
 			print(year,i);
 			System.out.println();
 		}
 		
-	} */
+	} 
 	
 	
 	
