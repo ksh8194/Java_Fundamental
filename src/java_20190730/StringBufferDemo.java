@@ -27,6 +27,7 @@ public class StringBufferDemo {
 		
 		sql.append("select no, writer from board");
 		System.out.println(sql);
+		
 	
 		
 		

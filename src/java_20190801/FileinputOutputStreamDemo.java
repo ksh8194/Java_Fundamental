@@ -28,6 +28,7 @@ public class FileinputOutputStreamDemo {
 			}
 			
 			
+			
 			System.out.println("성공");
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
