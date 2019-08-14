@@ -38,14 +38,14 @@ public class EchoClient2 {
 			out = socket.getOutputStream();
 		 osw = new OutputStreamWriter(out);
 			 bw = new BufferedWriter(osw);
-			bw.write("java-11.pdf");
+			bw.write("java-2.pdf");
 			bw.newLine();   //줄바꿈
 			bw.flush();
 			
 			in = socket.getInputStream();
 			File f = new File("c:\\dev\\test\\network");
 			f.mkdirs();
-			f = new File(f,"java-11.pdf");
+			f = new File(f,"java-12.pdf");
 			fos = new FileOutputStream(f);
 			byte[] readBytes = new byte[1024*8];
 			int readByteCount = 0;

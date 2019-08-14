@@ -16,6 +16,8 @@ public class MemberFindDtoDemo {
 		m1.setEmail("");
 		//4. 객체의 내용을 출력해 본다
 		System.out.println();
+		
+		//그림그리기
 		}
 	}
 
